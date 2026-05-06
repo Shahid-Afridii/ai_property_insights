@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.env/
+
+# Dataset
+data/
+*.csv
+*.xlsx
+*.parquet
+
+# Training files
+train.py
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Cache
+.cache/
+
+# PyTorch checkpoints except final model
+*.pt
+
+# Keep model folder
+!model/
+!model/property_model.pth
